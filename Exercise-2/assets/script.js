@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
           return response.json();
         })
         .then(function(data) {
-            resultDiv.innerHTML = '';
 
             let resultText = document.createElement('p');
             resultText.textContent = 'Name: ' + data.name + ', Age: ' + data.age + ', Count: ' + data.count;
