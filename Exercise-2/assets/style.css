@@ -10,4 +10,48 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #8ecae6;
+  border: 2px solid black;
+}
+
+.title-div {
+  width: 100%;
+  background-color: #219ebc;
+  text-align: center;
+}
+.title-div h1 {
+  font-family: "Caveat";
+  font-size: 40px;
+}
+.title-div h2 {
+  font-family: "Caveat";
+  font-size: 30px;
+}
+
+input[type=text] {
+  margin: 30px 0 10px 0;
+  width: 400px;
+  height: 80px;
+}
+input[type=text]::-moz-placeholder {
+  text-align: center;
+  font-size: 24px;
+}
+input[type=text]::placeholder {
+  text-align: center;
+  font-size: 24px;
+}
+
+#sendBtn {
+  width: 120px;
+  height: 30px;
+}
+
+p {
+  height: 20px;
+  width: 400px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #ffb703;
+  border-radius: 8px;
 }/*# sourceMappingURL=style.css.map */
